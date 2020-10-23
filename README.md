@@ -38,7 +38,7 @@ If you don't see the files, you're most likley in the wrong directory! You can u
 Remember to use proper naming conventions! <br />
 You can either use `git branch <NAME OF BRANCH>` or `git checkout -b <NAME OF BRANCH>` <br />
 If you use the first one, you'll also have to checkout with `git checkout <NAME OF BRANCH>` <br />
-You can check what branch you're on by doing a `git branch`
+You can check what branch you're on at any point by doing a `git branch`
 </details>
   </li>
   <li>
@@ -81,7 +81,7 @@ Make sure you use proper message conventions!
 <details>
   <summary>Push this Commit</summary>
   
-Since this is a new branch you may have to `set--upstream`.Try to `git push` and see if it's successful, otherwise follow the directions in the output.
+Since this is a new branch you may have to `set--upstream`. Try to `git push` and see if it's successful, otherwise follow the directions in the output.
 </details>
   </li>
   <li>
