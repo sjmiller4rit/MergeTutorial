@@ -1,14 +1,14 @@
 # Merge Tutorial
 
 ### Objective
-Resolve a Merge Conflict
+Resolve a Merge Conflict  
 
 ### Repository Details
 In the master branch there are two files:
 - This README.md file
 - example.txt 
 
-In branch1, the only difference is that example.txt is modified with the name "John Smith"
+In branch1, the only difference is that example.txt is modified with the name "John Smith"  
 
 
 
@@ -116,7 +116,7 @@ Now that you have (or at least you think you have) resolved the merge conflict, 
 </details>
   </li>
 </ol>
-
+  
 
 ### When you are done:
 Delete your outdated branch either through GitHub's interface or through the Command Line:
