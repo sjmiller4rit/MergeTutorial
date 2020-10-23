@@ -23,31 +23,36 @@ Now go to your profile and copy the url to your forked repository.
   </li>
     <li>
 <details>
-  <summary>Clone your Forked Repository</summary>
+  <summary>Clone your Forked Repository</summary> 
+
 Create a directory, `cd` into it, then clone your ***Forked repository*** (NOT THE MAIN ONE) and `cd` into that. Do a `dir` or `ls` to make sure you see both files (example.txt and README.md)
 </details>
   </li> 
    <li>
 <details>
   <summary>Create a Branch</summary>
+  
 Create a branch then checkout. Make sure you're on the proper branch by doing a `git branch`.
 </details>
   </li>
   <li>
 <details>
   <summary>Modify example.txt</summary>
+  
 Modify example.txt by opening the file in a text editor or through the command line. Add your name after the arrow.
 </details>
   </li>
     <li>
 <details>
   <summary>Stage your Changes</summary>
+  
 Once you have saved your file, do a `git status`, then stage your file.
 </details>
   </li>
     <li>
 <details>
   <summary>Commit this Stage</summary>
+  
 `git add .`
 Make sure you use proper message conventions!
 </details>
@@ -55,12 +60,14 @@ Make sure you use proper message conventions!
    <li>
 <details>
   <summary>Push this Commit</summary>
+  
 Since this is a new branch you may have to `set--upstream`
 </details>
   </li>
   <li>
 <details>
   <summary>Merge your Branches</summary>
+  
 Switch / checkout to branch1, then merge your branch into it with `git merge <branchName>` You should see a merge conflict alert like so.
 <br /> <img src="https://i.ibb.co/DbbwPt7/Screen-Shot-2020-10-23-at-1-14-35-PM.png" alt="mergeConflict" />
 </details>
@@ -68,6 +75,7 @@ Switch / checkout to branch1, then merge your branch into it with `git merge <br
   <li>
 <details>
   <summary>Explore the Branches and Files</summary>
+  
 Take a moment to read through the output and re-open the file. What does it look like?
 <br /> <img src="https://i.ibb.co/RbJs9Yg/Screen-Shot-2020-10-23-at-1-16-58-PM.png" alt="mergeConflictOutput" />
 </details>
@@ -75,6 +83,7 @@ Take a moment to read through the output and re-open the file. What does it look
   <li>
 <details>
   <summary>Resolve Merge Conflict Manually</summary>
+  
 Fix the merge conflict manually by removing the "John Smith" line and keeping yours. Once again, this can be done through a text editor or through the command line.
 <br /> <img src="https://i.ibb.co/d0dtFTM/Screen-Shot-2020-10-23-at-1-17-23-PM.png" alt="fixedMergeConflict" />
 </details>
@@ -82,6 +91,7 @@ Fix the merge conflict manually by removing the "John Smith" line and keeping yo
   <li>
 <details>
   <summary>Push your Changes</summary>
+  
 Now that you have (or at least you think you have) resolved the merge conflict, let's try adding, commiting and pushing the commit. If everything works, then you have successfully fixed the merge conflict! 
 </details>
   </li>
