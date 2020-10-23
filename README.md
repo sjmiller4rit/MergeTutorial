@@ -18,6 +18,7 @@ In branch1, the only difference is that example.txt is modified with the name "J
   <li>
 <details>
   <summary>Fork this Repository</summary>
+  
 <br /> <img src="https://i.ibb.co/kQ242r6/Screen-Shot-2020-10-23-at-1-43-09-PM.png" alt="forkRepo" />  
 Now go to your profile and copy the url to your forked repository. You'll need the url for cloning with `git clone <url>`
 </details>
