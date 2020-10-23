@@ -14,7 +14,9 @@ In branch1 the only difference is that example.txt is modified with the name "Jo
 
 ### Steps:
 1. Fork this Repository.
-2. Create a directory, `cd` into it, then clone your ***Forked repository*** and `cd` into that. Do a `dir` or `ls` to make sure you see both files (example.txt and README.md)
+<br /> <img src="https://i.ibb.co/kQ242r6/Screen-Shot-2020-10-23-at-1-43-09-PM.png" alt="forkRepo" />
+Now go to your profile and copy the url to your forked repository.
+2. Create a directory, `cd` into it, then clone your ***Forked repository*** (NOT THE MAIN ONE) and `cd` into that. Do a `dir` or `ls` to make sure you see both files (example.txt and README.md)
 3. Create a branch then checkout. Make sure you're on the proper branch by doing a `git branch`.
 4. Modify example.txt by opening the file in a text editor or through the command line. Add your name after the arrow.
 5. Once you have saved your file, do a `git status`, then stage your file.
